@@ -5,10 +5,10 @@
   "id": "0c7397fc-9062-4eed-a16b-d8da7c330b8a",
   "packageName": "com.microsoft.teams.groupconnect.comms",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "Simcoe County",
+    "websiteUrl": "https://www.simcoe.ca/",
+    "privacyUrl": "https://www.simcoe.ca/",
+    "termsOfUseUrl": "https://www.simcoe.ca/"
   },
   "localizationInfo": {
     "defaultLanguageTag": "en"
@@ -27,7 +27,7 @@
   "accentColor": "#737373",
   "configurableTabs": [
     {
-      "configurationUrl": "https://<<appDomain>>/configtab",
+      "configurationUrl": "https://groupconnect1simcoe.azurewebsites.net/configtab",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -36,7 +36,7 @@
   ],
   "bots": [
     {
-      "botId": "<<botId>>",
+      "botId": "d2e3366d-c1a7-432b-9a1f-6adaedb0dc77",
       "scopes": [
         "team"
       ],
@@ -49,10 +49,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "groupconnect1simcoe.azurewebsites.net"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>"
+    "id": "d2e3366d-c1a7-432b-9a1f-6adaedb0dc77",
+    "resource": "api://groupconnect1simcoe.azurewebsites.net"
   }
 }

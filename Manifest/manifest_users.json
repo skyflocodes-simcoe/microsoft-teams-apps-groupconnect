@@ -5,10 +5,10 @@
   "id": "fe0dfdaa-f1f7-4d85-9fd1-35b4edf4ffd1",
   "packageName": "com.microsoft.teams.groupconnect",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "Simcoe County",
+    "websiteUrl": "https://www.simcoe.ca/",
+    "privacyUrl": "https://www.simcoe.ca/",
+    "termsOfUseUrl": "https://www.simcoe.ca/"
   },
   "localizationInfo": {
     "defaultLanguageTag": "en"
@@ -27,7 +27,7 @@
   "accentColor": "#737373",
   "bots": [
     {
-      "botId": "<<botId>>",
+      "botId": "d2e3366d-c1a7-432b-9a1f-6adaedb0dc77",
       "scopes": [
         "personal",
         "team"
@@ -38,7 +38,7 @@
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://<<appDomain>>/ergChannelConfigTab",
+      "configurationUrl": "https://groupconnect1simcoe.azurewebsites.net/ergChannelConfigTab",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -49,8 +49,8 @@
     {
       "entityId": "Discover",
       "name": "Discover groups",
-      "contentUrl": "https://<<appDomain>>/discover",
-      "websiteUrl": "https://<<appDomain>>/discover",
+      "contentUrl": "https://groupconnect1simcoe.azurewebsites.net/discover",
+      "websiteUrl": "https://groupconnect1simcoe.azurewebsites.net/discover",
       "scopes": [
         "personal"
       ]
@@ -61,10 +61,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "groupconnect1simcoe.azurewebsites.net"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
-    "resource": "api://<<appDomain>>"
+    "id": "d2e3366d-c1a7-432b-9a1f-6adaedb0dc77",
+    "resource": "api://groupconnect1simcoe.azurewebsites.net"
   }
 }
